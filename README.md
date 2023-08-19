@@ -60,10 +60,20 @@ Verifying your smart contract allows others to see the source code and understan
 ### Step 4: Click "Verify and Publish"
 - Click the "Contract" tab, then click the "Verify and Publish" link.
 
-### Step 5: Enter Contract Details
+### Step 4.5: Flatten the Contract Code (if needed)
+- Some explorers require the contract code to be flattened (i.e., all dependencies and imports combined into a single file).
+- You can flatten the code using the "Solidity Flattener" plugin in Remix.
+  1. In Remix, go to the "Plugins" tab and search for "Solidity Flattener."
+  2. Click "Activate" to enable the plugin.
+  3. Select the contract file you want to flatten.
+  4. Click the "Flatten" button in the Solidity Flattener plugin.
+  5. The flattened code will be displayed. You can copy this code for verification.
+
+### Step 5: Enter Contract Details (Updated)
+- In the explorer's verification page, paste the flattened Solidity code (if required) or the original code.
 - Select the compiler version used (e.g., `0.8.0`).
-- Enter the contract's Solidity code.
 - Fill in the constructor arguments if any were used during deployment.
+
 
 ### Step 6: Verify the Contract
 - Click the "Verify and Publish" button.
