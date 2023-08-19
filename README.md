@@ -42,6 +42,47 @@ This project consists of Solidity contracts for creating and managing tokens and
 ### Step 6: Interact with the Contracts
 - Use the deployed contract interface in Remix to call functions and interact with the contract.
 
+
+## Verifying Smart Contracts on Explorers (BscScan, Etherscan)
+
+Verifying your smart contract allows others to see the source code and understand how the contract works. Here's how you can verify your contract:
+
+### Step 1: Deploy the Contract
+- Deploy the contract on the desired network (e.g., Ethereum Mainnet, Binance Smart Chain).
+- Note the contract address after deployment.
+
+### Step 2: Go to the Explorer
+- Navigate to the explorer for the network you deployed on (e.g., [Etherscan](https://etherscan.io/) for Ethereum, [BscScan](https://bscscan.com/) for Binance Smart Chain).
+
+### Step 3: Search for the Contract
+- Enter the contract address in the search bar and go to the contract's page.
+
+### Step 4: Click "Verify and Publish"
+- Click the "Contract" tab, then click the "Verify and Publish" link.
+
+### Step 5: Enter Contract Details
+- Select the compiler version used (e.g., `0.8.0`).
+- Enter the contract's Solidity code.
+- Fill in the constructor arguments if any were used during deployment.
+
+### Step 6: Verify the Contract
+- Click the "Verify and Publish" button.
+- If everything is correct, the contract will be verified, and the source code will be visible on the explorer.
+
+## Using ABI Hashex to Obtain Contract Information
+
+Sometimes, you may need to use tools like [ABI Hashex](https://abi.hashex.org/) to obtain the ABI (Application Binary Interface) of the contract.
+
+### Step 1: Go to ABI Hashex
+- Navigate to [https://abi.hashex.org/](https://abi.hashex.org/).
+
+### Step 2: Paste the ABI Code
+- Copy the ABI code from your contract (available in Remix after compilation).
+- Paste the ABI code into the ABI Hashex tool.
+
+### Step 3: Get the Information
+- The tool will provide various information related to the contract, such as function signatures and details.
+
 ## Conclusion
 
 This project provides a comprehensive solution for token creation, ICO management, and token operations. Follow the above steps to deploy and interact with the contracts using Remix.
