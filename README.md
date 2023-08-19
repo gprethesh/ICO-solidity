@@ -1,4 +1,4 @@
-# ICO Solidity Project
+# Tetherswap ICO Solidity Project
 
 This project consists of Solidity contracts for creating and managing tokens and an ICO (Initial Coin Offering). Below are the details of the files and instructions on how to use and deploy them.
 
